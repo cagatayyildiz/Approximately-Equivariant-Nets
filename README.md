@@ -12,6 +12,9 @@
 ### Downloading the datasets
 I downloaded the data from https://roselab1.ucsd.edu/seafile/d/8886a9ee4c5248afab26/. I created a folder `PhiFlow` in the main repo folder, then put the downloaded `Rotation` folder inside `PhiFlow`.
 
+### Running the model
+``` python3 run_model.py --relaxed_symmetry=Rotation --hidden_dim=92 --num_layers=5 --out_length=6 --alpha=1e-5 --batch_size=16 --learning_rate=0.001 --decay_rate=0.95 ```
+
 - - - - - 
 
 ## Paper: 
