@@ -1,3 +1,13 @@
+## Installation: 
+Simply create a new conda environment by running ``` conda create --name aen --file requirements.txt ```.
+
+I needed to add the `conda-forge` channel to my list of channels (that conda looks for finding packages) by running ```conda config --append channels conda-forge```.
+
+Also, since I use a mac, I did not install `cudatoolkit==11.7.64`.
+
+
+- - - - - 
+
 ## Paper: 
 Rui Wang*, Robin Walters*, Rose Yu; [Approximately Equivariant Networks for Imperfectly Symmetric Dynamics](https://arxiv.org/abs/2201.11969); International Conference on Machine Learning (ICML) 2022
 
