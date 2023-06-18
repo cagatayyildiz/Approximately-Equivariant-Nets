@@ -1,10 +1,14 @@
-## Installation: 
+## Cagatay's steps:
+
+### Installation: 
 Simply create a new conda environment by running ``` conda create --name aen --file requirements.txt ```.
 
 I needed to add the `conda-forge` channel to my list of channels (that conda looks for finding packages) by running ```conda config --append channels conda-forge```.
 
 Also, since I use a mac, I did not install `cudatoolkit==11.7.64`.
 
+### Downloading the datasets
+I downloaded the data from https://roselab1.ucsd.edu/seafile/d/8886a9ee4c5248afab26/
 
 - - - - - 
 
