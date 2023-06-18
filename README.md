@@ -1,6 +1,8 @@
 ## Cagatay's steps:
 
 ### Installation: 
+I used the original `requirements.txt` to install the necessary packages on my Linux workstation. For my MacBook, I had to slightly modify the original installation procedure. I summarize the steps for mac installation below:
+
 1. Create a new conda environment by running ```conda create --name aen --file requirements-caca.txt ```.
 2. Activate the newly installed environment: ```conda activate aen```.
 3. Install `pytorch` via pip, not conda (otherwise my MacBook complains): ```pip install pytorch==1.11.0```
