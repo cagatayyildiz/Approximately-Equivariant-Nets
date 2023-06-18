@@ -1,7 +1,7 @@
 ## Cagatay's steps:
 
 ### Installation: 
-1. Create a new conda environment by running ```conda create --name aen --file requirements.txt ```.
+1. Create a new conda environment by running ```conda create --name aen --file requirements-caca.txt ```.
 2. Activate the newly installed environment: ```conda activate aen```.
 3. Install `pytorch` via pip, not conda (otherwise my MacBook complains): ```pip install pytorch==1.11.0```
 4. Install `e2cnn`: ```pip install e2cnn```
