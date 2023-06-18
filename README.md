@@ -1,9 +1,9 @@
 ## Cagatay's steps:
 
 ### Installation: 
-1. Create a new conda environment by running ``` conda create --name aen --file requirements.txt ```.
-2. ``` conda activate aen```.
-3. Install `pytorch` via pip, not conda (otherwise my MacBook complains): ``` pip install pytorch==1.11.0```
+1. Create a new conda environment by running ```conda create --name aen --file requirements.txt ```.
+2. Activate the newly installed environment: ```conda activate aen```.
+3. Install `pytorch` via pip, not conda (otherwise my MacBook complains): ```pip install pytorch==1.11.0```
 4. Install `e2cnn`: ```pip install e2cnn```
 
 - Note-1: I needed to add the `conda-forge` channel to my list of channels (that conda looks for finding packages) by running ```conda config --append channels conda-forge```.
