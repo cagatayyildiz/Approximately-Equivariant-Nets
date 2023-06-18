@@ -1,0 +1,4 @@
+.DS_Store
+PhiFlow/
+__pycache__/
+models/__pycache__/
