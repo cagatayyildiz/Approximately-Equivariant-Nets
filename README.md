@@ -1,14 +1,16 @@
 ## Cagatay's steps:
 
 ### Installation: 
-Simply create a new conda environment by running ``` conda create --name aen --file requirements.txt ```.
+1. Create a new conda environment by running ``` conda create --name aen --file requirements.txt ```.
+2. ``` conda activate aen```.
+3. Install `pytorch` via pip, not conda (otherwise my MacBook complains): ``` pip install pytorch==1.11.0```
+4. Install `e2cnn`: ```pip install e2cnn```
 
-I needed to add the `conda-forge` channel to my list of channels (that conda looks for finding packages) by running ```conda config --append channels conda-forge```.
-
-Also, since I use a mac, I did not install `cudatoolkit==11.7.64`.
+- Note-1: I needed to add the `conda-forge` channel to my list of channels (that conda looks for finding packages) by running ```conda config --append channels conda-forge```.
+- Note-2: Since I use a mac, I did not install `cudatoolkit==11.7.64`.
 
 ### Downloading the datasets
-I downloaded the data from https://roselab1.ucsd.edu/seafile/d/8886a9ee4c5248afab26/
+I downloaded the data from https://roselab1.ucsd.edu/seafile/d/8886a9ee4c5248afab26/. I created a folder `PhiFlow` in the main repo folder, then put the downloaded `Rotation` folder inside `PhiFlow`.
 
 - - - - - 
 
